@@ -1,0 +1,30 @@
+{
+  "name": "c04-m04-suite-automation",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/booleancl/c04-m04-suite-automation.git"
+  },
+  "keywords": [
+    "automation",
+    "qa",
+    "cypress"
+  ],
+  "author": "Gonzalo Pincheira <g.pincheira.a@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/booleancl/c04-m04-suite-automation/issues"
+  },
+  "homepage": "https://github.com/booleancl/c04-m04-suite-automation#readme",
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/step_definitions"
+  },
+  "dependencies": {
+    "cypress": "^5.1.0",
+    "cypress-cucumber-preprocessor": "^2.5.5"
+  }
+}
